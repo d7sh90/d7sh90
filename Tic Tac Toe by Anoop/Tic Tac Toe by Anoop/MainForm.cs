@@ -555,6 +555,8 @@ namespace Tic_Tac_Toe_by_Anoop
 			player2=0;
             textBox1.Text = "";
             textBox2.Text = "";
+            label2.Text = "";
+            label3.Text = "";
             cleargame();
 		}
 	}
