@@ -324,9 +324,9 @@ namespace Tic_Tac_Toe_by_Anoop
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(506, 522);
+            this.button10.Location = new System.Drawing.Point(506, 519);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(119, 48);
+            this.button10.Size = new System.Drawing.Size(119, 57);
             this.button10.TabIndex = 24;
             this.button10.Text = "Add";
             this.button10.UseVisualStyleBackColor = true;
@@ -334,9 +334,9 @@ namespace Tic_Tac_Toe_by_Anoop
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(506, 585);
+            this.button11.Location = new System.Drawing.Point(506, 582);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(119, 48);
+            this.button11.Size = new System.Drawing.Size(119, 57);
             this.button11.TabIndex = 25;
             this.button11.Text = "Add";
             this.button11.UseVisualStyleBackColor = true;
