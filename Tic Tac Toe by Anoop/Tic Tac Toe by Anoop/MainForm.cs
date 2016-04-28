@@ -613,23 +613,6 @@ namespace Tic_Tac_Toe_by_Anoop
             cleargame();
         }
 
-        private void button12_Click(object sender, EventArgs e)
-        {
-            int a = 2, b = player1, c = player2;
-            //a mean person who is has best score until now.
-            // int x = 3, y = 4, z = 5;
-            //Console.WriteLine(Math.Max(Math.Max(a, b), c));
-            int max = Math.Max(Math.Max(a, b), c);
-
-            if (max == a && max == b && max == c) { MessageBox.Show(" The best Score is , " + textBox1.Text + " and " + textBox2.Text); }
-            else if (max == a && max == b) { MessageBox.Show(" The best Score is " + textBox1.Text); }
-            else if (max == a && max == c) { MessageBox.Show(" The best Score is " + textBox2.Text); }
-            else if (max == b && max == c) { MessageBox.Show(" The best Score is " + textBox1.Text + " and " + textBox2.Text); }
-            else if (max == a) { MessageBox.Show(" The best Score is Person x"); }
-            else if (max == b) { MessageBox.Show(" The best Score is " + textBox1.Text); }
-            else if (max == c) { MessageBox.Show(" The best Score is " + textBox2.Text); }
-
-            // MessageBox.Show(" The best Score is" + Math.Max(Math.Max(a, b), c));
-        }
+        
     }
 }
