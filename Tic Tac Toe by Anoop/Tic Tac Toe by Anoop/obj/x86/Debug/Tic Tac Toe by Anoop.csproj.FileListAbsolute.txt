@@ -28,3 +28,11 @@ C:\Users\sony\Source\Repos\munera\d7sh90\Tic Tac Toe by Anoop\Tic Tac Toe by Ano
 C:\Users\sony\Source\Repos\munera\d7sh90\Tic Tac Toe by Anoop\Tic Tac Toe by Anoop\obj\x86\Debug\Tic Tac Toe by Anoop.csprojResolveAssemblyReference.cache
 C:\Users\sony\Source\Repos\munera\d7sh90\Tic Tac Toe by Anoop\Tic Tac Toe by Anoop\obj\x86\Debug\Tic_Tac_Toe_by_Anoop.MainForm.resources
 C:\Users\sony\Source\Repos\munera\d7sh90\Tic Tac Toe by Anoop\Tic Tac Toe by Anoop\obj\x86\Debug\Tic Tac Toe by Anoop.csproj.GenerateResource.Cache
+C:\Users\mntda_000\Source\Repos\d7sh90\Tic Tac Toe by Anoop\Tic Tac Toe by Anoop\bin\Debug\Tic Tac Toe by Anoop.exe.config
+C:\Users\mntda_000\Source\Repos\d7sh90\Tic Tac Toe by Anoop\Tic Tac Toe by Anoop\obj\x86\Debug\Tic Tac Toe by Anoop.exe
+C:\Users\mntda_000\Source\Repos\d7sh90\Tic Tac Toe by Anoop\Tic Tac Toe by Anoop\obj\x86\Debug\Tic Tac Toe by Anoop.pdb
+C:\Users\mntda_000\Source\Repos\d7sh90\Tic Tac Toe by Anoop\Tic Tac Toe by Anoop\obj\x86\Debug\Tic Tac Toe by Anoop.csprojResolveAssemblyReference.cache
+C:\Users\mntda_000\Source\Repos\d7sh90\Tic Tac Toe by Anoop\Tic Tac Toe by Anoop\obj\x86\Debug\Tic_Tac_Toe_by_Anoop.MainForm.resources
+C:\Users\mntda_000\Source\Repos\d7sh90\Tic Tac Toe by Anoop\Tic Tac Toe by Anoop\obj\x86\Debug\Tic Tac Toe by Anoop.csproj.GenerateResource.Cache
+C:\Users\mntda_000\Source\Repos\d7sh90\Tic Tac Toe by Anoop\Tic Tac Toe by Anoop\bin\Debug\Tic Tac Toe by Anoop.exe
+C:\Users\mntda_000\Source\Repos\d7sh90\Tic Tac Toe by Anoop\Tic Tac Toe by Anoop\bin\Debug\Tic Tac Toe by Anoop.pdb
