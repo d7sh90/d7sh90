@@ -13,11 +13,14 @@ using System.Windows.Forms;
 
 namespace Tic_Tac_Toe_by_Anoop
 {
-	/// <summary>
-	/// Description of MainForm.
-	/// </summary>
-	public partial class MainForm : Form
-	{
+    /// <summary>
+    /// Description of MainForm.
+    /// </summary>
+
+    public partial class MainForm : Form
+    {
+        //System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer { Interval = 10000 };
+        //Timer.Tick += timer1_Tick;
         System.Windows.Forms.Timer t = new System.Windows.Forms.Timer { Interval = 10000 };
 
         public MainForm()
@@ -27,7 +30,7 @@ namespace Tic_Tac_Toe_by_Anoop
             //
             InitializeComponent();
 
-
+            t.Tick += timer1_Tick;
             //
             // TODO: Add constructor code after the InitializeComponent() call.
             //
@@ -41,8 +44,8 @@ namespace Tic_Tac_Toe_by_Anoop
 
         void Button1Click(object sender, EventArgs e)
         {
-            t.Tick += timer1_Tick;
 
+            t.Stop();
             t.Start();
             if (click1 == 0)
 
@@ -75,8 +78,8 @@ namespace Tic_Tac_Toe_by_Anoop
 
         void Button2Click(object sender, EventArgs e)
         {
-            t.Tick += timer1_Tick;
 
+            t.Stop();
             t.Start();
             if (click2 == 0)
             {
@@ -102,8 +105,8 @@ namespace Tic_Tac_Toe_by_Anoop
 
         void Button3Click(object sender, EventArgs e)
         {
-            t.Tick += timer1_Tick;
 
+            t.Stop();
             t.Start();
             if (click3 == 0)
             {
@@ -129,8 +132,9 @@ namespace Tic_Tac_Toe_by_Anoop
 
         void Button4Click(object sender, EventArgs e)
         {
-            t.Tick += timer1_Tick;
 
+
+            t.Stop();
             t.Start();
             if (click4 == 0)
             {
@@ -156,8 +160,8 @@ namespace Tic_Tac_Toe_by_Anoop
 
         void Button5Click(object sender, EventArgs e)
         {
-            t.Tick += timer1_Tick;
 
+            t.Stop();
             t.Start();
             if (click5 == 0)
             {
@@ -206,8 +210,8 @@ namespace Tic_Tac_Toe_by_Anoop
 
         void Button6Click(object sender, EventArgs e)
         {
-            t.Tick += timer1_Tick;
 
+            t.Stop();
             t.Start();
             if (click6 == 0)
             {
@@ -243,10 +247,15 @@ namespace Tic_Tac_Toe_by_Anoop
 
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
         void Button7Click(object sender, EventArgs e)
         {
-            t.Tick += timer1_Tick;
 
+            t.Stop();
             t.Start();
             if (click7 == 0)
             {
@@ -272,8 +281,8 @@ namespace Tic_Tac_Toe_by_Anoop
 
         void Button8Click(object sender, EventArgs e)
         {
-            t.Tick += timer1_Tick;
 
+            t.Stop();
             t.Start();
             if (click8 == 0)
             {
@@ -299,8 +308,8 @@ namespace Tic_Tac_Toe_by_Anoop
 
         void Button9Click(object sender, EventArgs e)
         {
-            t.Tick += timer1_Tick;
 
+            t.Stop();
             t.Start();
             if (click9 == 0)
             {
@@ -597,22 +606,34 @@ namespace Tic_Tac_Toe_by_Anoop
 
         void PlayagainClick(object sender, EventArgs e)
         {
+            t.Stop();
             cleargame();
         }
 
         void ResetClick(object sender, EventArgs e)
         {
+            t.Stop();
             player1score.Text = "";
             player2score.Text = "";
-            player1 = 0;
-            player2 = 0;
             textBox1.Text = "";
             textBox2.Text = "";
             label2.Text = "";
             label3.Text = "";
+            player1 = 0;
+            player2 = 0;
             cleargame();
         }
 
-        
+        private void button12_Click(object sender, EventArgs e)
+        {
+            int  p1 = player1, p2 = player2;
+
+            int max = Math.Max(p1, p2);
+            // max contains best score between 2 players
+            if (max == p1 && max == p2 ) { MessageBox.Show(" The best Score is  " + textBox1.Text + " and " + textBox2.Text); }
+            else if (max == p1) { MessageBox.Show(" The best Score is " + textBox1.Text); }
+            else if (max == p2) { MessageBox.Show(" The best Score is " + textBox2.Text); }
+
+        }
     }
 }
